@@ -1,4 +1,4 @@
-# ScreenRecoderForGame
+# ScreenRecord
 iOS 9.0 新增的接口，屏幕录制，声音录制，可以选择是否启用麦克风录入外围环境声音。
 
 已经封装好为一个类，直接在项目中拖入就可以使用。
