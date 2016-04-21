@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCFA52E71CC8CB0400EB6FC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA52E61CC8CB0400EB6FC2 /* main.m */; };
+		FCFA52EA1CC8CB0400EB6FC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA52E91CC8CB0400EB6FC2 /* AppDelegate.m */; };
+		FCFA52ED1CC8CB0400EB6FC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA52EC1CC8CB0400EB6FC2 /* ViewController.m */; };
+		FCFA52F01CC8CB0400EB6FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFA52EE1CC8CB0400EB6FC2 /* Main.storyboard */; };
+		FCFA52F21CC8CB0400EB6FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFA52F11CC8CB0400EB6FC2 /* Assets.xcassets */; };
+		FCFA52F51CC8CB0400EB6FC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFA52F31CC8CB0400EB6FC2 /* LaunchScreen.storyboard */; };
+		FCFA53001CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA52FF1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.m */; };
+		FCFA530B1CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA530A1CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFA52FC1CC8CB0400EB6FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFA52DA1CC8CB0400EB6FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFA52E11CC8CB0400EB6FC2;
+			remoteInfo = ScreenRecoderForGame;
+		};
+		FCFA53071CC8CB0400EB6FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFA52DA1CC8CB0400EB6FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFA52E11CC8CB0400EB6FC2;
+			remoteInfo = ScreenRecoderForGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCFA52E21CC8CB0400EB6FC2 /* ScreenRecoderForGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRecoderForGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFA52E61CC8CB0400EB6FC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCFA52E81CC8CB0400EB6FC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCFA52E91CC8CB0400EB6FC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCFA52EB1CC8CB0400EB6FC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCFA52EC1CC8CB0400EB6FC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCFA52EF1CC8CB0400EB6FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCFA52F11CC8CB0400EB6FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCFA52F41CC8CB0400EB6FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCFA52F61CC8CB0400EB6FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFA52FB1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenRecoderForGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFA52FF1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRecoderForGameTests.m; sourceTree = "<group>"; };
+		FCFA53011CC8CB0400EB6FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFA53061CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenRecoderForGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFA530A1CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRecoderForGameUITests.m; sourceTree = "<group>"; };
+		FCFA530C1CC8CB0400EB6FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFA52DF1CC8CB0400EB6FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA52F81CC8CB0400EB6FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA53031CC8CB0400EB6FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCFA52D91CC8CB0400EB6FC2 = {
+			isa = PBXGroup;
+			children = (
+				FCFA52E41CC8CB0400EB6FC2 /* ScreenRecoderForGame */,
+				FCFA52FE1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests */,
+				FCFA53091CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests */,
+				FCFA52E31CC8CB0400EB6FC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFA52E31CC8CB0400EB6FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA52E21CC8CB0400EB6FC2 /* ScreenRecoderForGame.app */,
+				FCFA52FB1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.xctest */,
+				FCFA53061CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFA52E41CC8CB0400EB6FC2 /* ScreenRecoderForGame */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA52E81CC8CB0400EB6FC2 /* AppDelegate.h */,
+				FCFA52E91CC8CB0400EB6FC2 /* AppDelegate.m */,
+				FCFA52EB1CC8CB0400EB6FC2 /* ViewController.h */,
+				FCFA52EC1CC8CB0400EB6FC2 /* ViewController.m */,
+				FCFA52EE1CC8CB0400EB6FC2 /* Main.storyboard */,
+				FCFA52F11CC8CB0400EB6FC2 /* Assets.xcassets */,
+				FCFA52F31CC8CB0400EB6FC2 /* LaunchScreen.storyboard */,
+				FCFA52F61CC8CB0400EB6FC2 /* Info.plist */,
+				FCFA52E51CC8CB0400EB6FC2 /* Supporting Files */,
+			);
+			path = ScreenRecoderForGame;
+			sourceTree = "<group>";
+		};
+		FCFA52E51CC8CB0400EB6FC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA52E61CC8CB0400EB6FC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCFA52FE1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA52FF1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.m */,
+				FCFA53011CC8CB0400EB6FC2 /* Info.plist */,
+			);
+			path = ScreenRecoderForGameTests;
+			sourceTree = "<group>";
+		};
+		FCFA53091CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA530A1CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.m */,
+				FCFA530C1CC8CB0400EB6FC2 /* Info.plist */,
+			);
+			path = ScreenRecoderForGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFA52E11CC8CB0400EB6FC2 /* ScreenRecoderForGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFA530F1CC8CB0400EB6FC2 /* Build configuration list for PBXNativeTarget "ScreenRecoderForGame" */;
+			buildPhases = (
+				FCFA52DE1CC8CB0400EB6FC2 /* Sources */,
+				FCFA52DF1CC8CB0400EB6FC2 /* Frameworks */,
+				FCFA52E01CC8CB0400EB6FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenRecoderForGame;
+			productName = ScreenRecoderForGame;
+			productReference = FCFA52E21CC8CB0400EB6FC2 /* ScreenRecoderForGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCFA52FA1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFA53121CC8CB0400EB6FC2 /* Build configuration list for PBXNativeTarget "ScreenRecoderForGameTests" */;
+			buildPhases = (
+				FCFA52F71CC8CB0400EB6FC2 /* Sources */,
+				FCFA52F81CC8CB0400EB6FC2 /* Frameworks */,
+				FCFA52F91CC8CB0400EB6FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFA52FD1CC8CB0400EB6FC2 /* PBXTargetDependency */,
+			);
+			name = ScreenRecoderForGameTests;
+			productName = ScreenRecoderForGameTests;
+			productReference = FCFA52FB1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCFA53051CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFA53151CC8CB0400EB6FC2 /* Build configuration list for PBXNativeTarget "ScreenRecoderForGameUITests" */;
+			buildPhases = (
+				FCFA53021CC8CB0400EB6FC2 /* Sources */,
+				FCFA53031CC8CB0400EB6FC2 /* Frameworks */,
+				FCFA53041CC8CB0400EB6FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFA53081CC8CB0400EB6FC2 /* PBXTargetDependency */,
+			);
+			name = ScreenRecoderForGameUITests;
+			productName = ScreenRecoderForGameUITests;
+			productReference = FCFA53061CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFA52DA1CC8CB0400EB6FC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qianwei;
+				TargetAttributes = {
+					FCFA52E11CC8CB0400EB6FC2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SSJK4DGTL7;
+					};
+					FCFA52FA1CC8CB0400EB6FC2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SSJK4DGTL7;
+						TestTargetID = FCFA52E11CC8CB0400EB6FC2;
+					};
+					FCFA53051CC8CB0400EB6FC2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SSJK4DGTL7;
+						TestTargetID = FCFA52E11CC8CB0400EB6FC2;
+					};
+				};
+			};
+			buildConfigurationList = FCFA52DD1CC8CB0400EB6FC2 /* Build configuration list for PBXProject "ScreenRecoderForGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFA52D91CC8CB0400EB6FC2;
+			productRefGroup = FCFA52E31CC8CB0400EB6FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFA52E11CC8CB0400EB6FC2 /* ScreenRecoderForGame */,
+				FCFA52FA1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests */,
+				FCFA53051CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFA52E01CC8CB0400EB6FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA52F51CC8CB0400EB6FC2 /* LaunchScreen.storyboard in Resources */,
+				FCFA52F21CC8CB0400EB6FC2 /* Assets.xcassets in Resources */,
+				FCFA52F01CC8CB0400EB6FC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA52F91CC8CB0400EB6FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA53041CC8CB0400EB6FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFA52DE1CC8CB0400EB6FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA52ED1CC8CB0400EB6FC2 /* ViewController.m in Sources */,
+				FCFA52EA1CC8CB0400EB6FC2 /* AppDelegate.m in Sources */,
+				FCFA52E71CC8CB0400EB6FC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA52F71CC8CB0400EB6FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA53001CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA53021CC8CB0400EB6FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA530B1CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFA52FD1CC8CB0400EB6FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFA52E11CC8CB0400EB6FC2 /* ScreenRecoderForGame */;
+			targetProxy = FCFA52FC1CC8CB0400EB6FC2 /* PBXContainerItemProxy */;
+		};
+		FCFA53081CC8CB0400EB6FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFA52E11CC8CB0400EB6FC2 /* ScreenRecoderForGame */;
+			targetProxy = FCFA53071CC8CB0400EB6FC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCFA52EE1CC8CB0400EB6FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFA52EF1CC8CB0400EB6FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCFA52F31CC8CB0400EB6FC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFA52F41CC8CB0400EB6FC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFA530D1CC8CB0400EB6FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCFA530E1CC8CB0400EB6FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFA53101CC8CB0400EB6FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScreenRecoderForGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czk.ScreenRecoderForGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCFA53111CC8CB0400EB6FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScreenRecoderForGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czk.ScreenRecoderForGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCFA53131CC8CB0400EB6FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScreenRecoderForGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czk.ScreenRecoderForGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenRecoderForGame.app/ScreenRecoderForGame";
+			};
+			name = Debug;
+		};
+		FCFA53141CC8CB0400EB6FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScreenRecoderForGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czk.ScreenRecoderForGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenRecoderForGame.app/ScreenRecoderForGame";
+			};
+			name = Release;
+		};
+		FCFA53161CC8CB0400EB6FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScreenRecoderForGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czk.ScreenRecoderForGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScreenRecoderForGame;
+			};
+			name = Debug;
+		};
+		FCFA53171CC8CB0400EB6FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScreenRecoderForGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czk.ScreenRecoderForGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScreenRecoderForGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFA52DD1CC8CB0400EB6FC2 /* Build configuration list for PBXProject "ScreenRecoderForGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFA530D1CC8CB0400EB6FC2 /* Debug */,
+				FCFA530E1CC8CB0400EB6FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFA530F1CC8CB0400EB6FC2 /* Build configuration list for PBXNativeTarget "ScreenRecoderForGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFA53101CC8CB0400EB6FC2 /* Debug */,
+				FCFA53111CC8CB0400EB6FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCFA53121CC8CB0400EB6FC2 /* Build configuration list for PBXNativeTarget "ScreenRecoderForGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFA53131CC8CB0400EB6FC2 /* Debug */,
+				FCFA53141CC8CB0400EB6FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCFA53151CC8CB0400EB6FC2 /* Build configuration list for PBXNativeTarget "ScreenRecoderForGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFA53161CC8CB0400EB6FC2 /* Debug */,
+				FCFA53171CC8CB0400EB6FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFA52DA1CC8CB0400EB6FC2 /* Project object */;
+}
