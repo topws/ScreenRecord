@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,67 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CMP-y8-MYh">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgN-c3-pUz">
+                                <rect key="frame" x="160" y="280" width="80" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7LU-KY-o4X"/>
+                                    <constraint firstAttribute="width" constant="80" id="MQ3-x7-hXo"/>
+                                </constraints>
+                                <state key="normal" title="开始录制">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fow-0P-dAQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAO-GM-BKN">
+                                <rect key="frame" x="360" y="280" width="80" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4Nn-d8-lxw"/>
+                                    <constraint firstAttribute="width" constant="80" id="oUT-vu-wyN"/>
+                                </constraints>
+                                <state key="normal" title="结束录制">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="endRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oYa-fT-4Oh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMK-dp-89Y" userLabel="Time">
+                                <rect key="frame" x="279" y="389" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DAO-GM-BKN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4sc-Nl-Guf"/>
+                            <constraint firstItem="DAO-GM-BKN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="8qV-aT-8Sr"/>
+                            <constraint firstAttribute="trailing" secondItem="CMP-y8-MYh" secondAttribute="trailing" id="9e8-jd-aQh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CMP-y8-MYh" secondAttribute="bottom" id="IfG-qO-AK2"/>
+                            <constraint firstItem="CMP-y8-MYh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="NTg-i2-Gwn"/>
+                            <constraint firstItem="sgN-c3-pUz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="TdU-Nf-OBc"/>
+                            <constraint firstItem="sgN-c3-pUz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UQS-OL-dPK"/>
+                            <constraint firstItem="bMK-dp-89Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lLL-ni-NAL"/>
+                            <constraint firstItem="CMP-y8-MYh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rrc-Zq-DOZ"/>
+                            <constraint firstItem="bMK-dp-89Y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="u8b-ql-wKv"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backImageView" destination="CMP-y8-MYh" id="vns-hk-Twy"/>
+                        <outlet property="timeLabel" destination="bMK-dp-89Y" id="DHp-63-gHQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="310" y="401"/>
         </scene>
     </scenes>
 </document>

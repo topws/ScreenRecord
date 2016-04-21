@@ -15,6 +15,10 @@
 		FCFA52F51CC8CB0400EB6FC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFA52F31CC8CB0400EB6FC2 /* LaunchScreen.storyboard */; };
 		FCFA53001CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA52FF1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests.m */; };
 		FCFA530B1CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA530A1CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.m */; };
+		FCFA53191CC8CB8A00EB6FC2 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCFA53181CC8CB8A00EB6FC2 /* a.mp3 */; };
+		FCFA531D1CC8CBD600EB6FC2 /* GameScreenRecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA531C1CC8CBD600EB6FC2 /* GameScreenRecoder.m */; };
+		FCFA53211CC8CC5100EB6FC2 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFA53201CC8CC5100EB6FC2 /* 0.png */; };
+		FCFA53231CC8D31D00EB6FC2 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = FCFA53221CC8D31D00EB6FC2 /* 1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		FCFA53061CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenRecoderForGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFA530A1CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRecoderForGameUITests.m; sourceTree = "<group>"; };
 		FCFA530C1CC8CB0400EB6FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFA53181CC8CB8A00EB6FC2 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
+		FCFA531B1CC8CBD600EB6FC2 /* GameScreenRecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreenRecoder.h; sourceTree = "<group>"; };
+		FCFA531C1CC8CBD600EB6FC2 /* GameScreenRecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScreenRecoder.m; sourceTree = "<group>"; };
+		FCFA53201CC8CC5100EB6FC2 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		FCFA53221CC8D31D00EB6FC2 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		FCFA52D91CC8CB0400EB6FC2 = {
 			isa = PBXGroup;
 			children = (
+				FCFA531A1CC8CBA500EB6FC2 /* Recoder */,
 				FCFA52E41CC8CB0400EB6FC2 /* ScreenRecoderForGame */,
 				FCFA52FE1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests */,
 				FCFA53091CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests */,
@@ -117,6 +127,9 @@
 		FCFA52E51CC8CB0400EB6FC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA53221CC8D31D00EB6FC2 /* 1.gif */,
+				FCFA53201CC8CC5100EB6FC2 /* 0.png */,
+				FCFA53181CC8CB8A00EB6FC2 /* a.mp3 */,
 				FCFA52E61CC8CB0400EB6FC2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +151,15 @@
 				FCFA530C1CC8CB0400EB6FC2 /* Info.plist */,
 			);
 			path = ScreenRecoderForGameUITests;
+			sourceTree = "<group>";
+		};
+		FCFA531A1CC8CBA500EB6FC2 /* Recoder */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA531B1CC8CBD600EB6FC2 /* GameScreenRecoder.h */,
+				FCFA531C1CC8CBD600EB6FC2 /* GameScreenRecoder.m */,
+			);
+			name = Recoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFA53231CC8D31D00EB6FC2 /* 1.gif in Resources */,
+				FCFA53211CC8CC5100EB6FC2 /* 0.png in Resources */,
+				FCFA53191CC8CB8A00EB6FC2 /* a.mp3 in Resources */,
 				FCFA52F51CC8CB0400EB6FC2 /* LaunchScreen.storyboard in Resources */,
 				FCFA52F21CC8CB0400EB6FC2 /* Assets.xcassets in Resources */,
 				FCFA52F01CC8CB0400EB6FC2 /* Main.storyboard in Resources */,
@@ -273,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFA531D1CC8CBD600EB6FC2 /* GameScreenRecoder.m in Sources */,
 				FCFA52ED1CC8CB0400EB6FC2 /* ViewController.m in Sources */,
 				FCFA52EA1CC8CB0400EB6FC2 /* AppDelegate.m in Sources */,
 				FCFA52E71CC8CB0400EB6FC2 /* main.m in Sources */,
@@ -419,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScreenRecoderForGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = czk.ScreenRecoderForGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScreenRecoderForGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = czk.ScreenRecoderForGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
