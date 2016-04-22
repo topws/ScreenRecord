@@ -13,7 +13,7 @@
 @required
 //预览准备的视频
 -(void)showSuccessViewController;
-//点击取消或者村村后要移除这个页面
+//点击取消或者保存后要移除这个页面
 - (void)previewControllerDidFinish:(RPPreviewViewController *)previewController;
 //根据需要进行用户提示
 - (void)previewController:(RPPreviewViewController *)previewController didFinishWithActivityTypes:(NSSet <NSString *> *)activityTypes;
