@@ -19,7 +19,9 @@
 - (void)previewController:(RPPreviewViewController *)previewController didFinishWithActivityTypes:(NSSet <NSString *> *)activityTypes;
 
 @optional
+//正在录屏
 -(void)loading;
+//结束录屏
 -(void)loadEnd;
 @end
 
@@ -29,6 +31,6 @@
 +(instancetype)INSTANCE;
 
 //开始录屏是否需要启用麦克风
-+(void)startRecord:(BOOL)isNeedMicroPhone;
++(BOOL)startRecord:(BOOL)isNeedMicroPhone;
 +(void)stopRecord;
 @end
