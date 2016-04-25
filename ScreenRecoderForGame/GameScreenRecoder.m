@@ -15,7 +15,7 @@
 #define SIMULATOR 0
 #endif
 
-@interface GameScreenRecoder()
+@interface GameScreenRecoder()<RPScreenRecorderDelegate>
 //@property (nonatomic,strong)
 @property (assign,nonatomic)BOOL isRecord;
 //加载中的提示，可以自行替换
@@ -31,8 +31,8 @@
     });
     return instance;
 }
-+(void)startRecord:(BOOL)isNeedMicroPhone{
-    [[self INSTANCE]start:isNeedMicroPhone];
++(BOOL)startRecord:(BOOL)isNeedMicroPhone{
+   return [[self INSTANCE]start:isNeedMicroPhone];
 }
 +(void)stopRecord{
     [[self INSTANCE]stop];
@@ -40,6 +40,7 @@
 -(instancetype)init{
     if (self = [super init]) {
         _isRecord = NO;
+        [RPScreenRecorder sharedRecorder].delegate = self;
     }
     return self;
 }
@@ -54,21 +55,28 @@
     return _indicator;
 }
 //开始录制
--(void)start:(BOOL)isNeedMicroPhone{
+-(BOOL)start:(BOOL)isNeedMicroPhone{
     if (![self isSystemVersionOk]) {
-        return;
+        return NO;
     }
     //不支持模拟器
     if (SIMULATOR) {
         [self showSimulatorWarning];
-        return;
+        return NO;
     }
     if (![RPScreenRecorder sharedRecorder].isAvailable) {
         NSLog(@"不支持ReplayKit录制");
-        return;
+        return NO;
     }
+    //系统自带的接口，判断是否在录制，比我的好用多了
+    NSLog(@"%d",[[RPScreenRecorder sharedRecorder]isRecording]);
+    if ([[RPScreenRecorder sharedRecorder]isRecording]) {
+        return NO;
+    }
+    
+    
     if ([self isRecord]) {
-        return;
+        return NO;
     }
     self.isRecord = YES;
     //开始录制(参数是是否启用麦克风)(回调是 录制是否准备完毕
@@ -80,6 +88,7 @@
         if (error) {
             NSLog(@"录制失败 %@",error);
             self.isRecord = NO;
+            
         }else{
             //加载完毕
             if ([[self delegate] respondsToSelector:@selector(loadEnd)]) {
@@ -88,7 +97,7 @@
         }
         [[self indicator]stopAnimating];
     }];
-    
+    return YES;
 }
 //结束录制
 -(void)stop{
@@ -118,6 +127,19 @@
         }
     }];
 }
+#pragma mark RPScreenRecordDelegate
+- (void)screenRecorder:(RPScreenRecorder *)screenRecorder didStopRecordingWithError:(NSError *)error previewViewController:(nullable RPPreviewViewController *)previewViewController
+{
+    NSLog(@"%s  error = %@",__FUNCTION__,error);
+}
+
+- (void)screenRecorderDidChangeAvailability:(RPScreenRecorder *)screenRecorder
+{
+    //如果变成了无法录屏，应该发送通知去停止录屏
+    NSLog(@"屏幕录制的能力改变了 %d %d",screenRecorder.isRecording,screenRecorder.isAvailable);
+}
+
+
 -(void)showSimulatorWarning{
     NSLog(@"不支持模拟器");
 }

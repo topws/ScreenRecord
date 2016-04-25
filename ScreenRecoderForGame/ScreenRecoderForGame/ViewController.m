@@ -55,9 +55,10 @@
 - (IBAction)startRecord:(id)sender {
     //同时开启音乐
     [_player play];
-    [GameScreenRecoder startRecord:YES];
-    [self.timer fire];
-    NSLog(@"开始录制");
+    if ([GameScreenRecoder startRecord:YES]) {
+        [self.timer fire];
+        NSLog(@"开始录制");
+    }
 }
 - (IBAction)endRecord:(id)sender {
     [_player stop];

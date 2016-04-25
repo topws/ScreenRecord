@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B81F2320589DB68CFB98E3E13EB72FF /* Pods-ScreenRecoderForGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D29F07BE24574472BFA6D7856CFB694B /* Pods-ScreenRecoderForGame-dummy.m */; };
+		6371AF01D6F66B6A45C901711DB2419F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		95B78BFC3D921957F8DD6A2CE3E0B499 /* JPEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EDA88783649AD8FF7C2D4EBF520AB9 /* JPEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A04E758C13909C88410FA82419696F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A7B8ECCAD3285C571FFAE1F87156FBF2 /* JSPatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F738DF2E0C195E73393800710490F /* JSPatch-dummy.m */; };
+		E90FE89EDA2F001944637A7C456AF004 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCA8D1AB7C36BC2BA27574126A0B1C1 /* JPEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE3EA6740786F9ECB104FD2E855FD075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1D53461DE538B7C8DFE0B76D857587;
+			remoteInfo = JSPatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15E3F44D6C7E78CCCDB3C1E292A0701E /* JSPatch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSPatch-prefix.pch"; sourceTree = "<group>"; };
+		300878CB3EA3C495E607D4CE0DC85CDB /* libPods-ScreenRecoderForGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScreenRecoderForGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		490E4836CB83394A7899C98DCC56C1D0 /* Pods-ScreenRecoderForGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecoderForGame.debug.xcconfig"; sourceTree = "<group>"; };
+		591E7937CE0B1BA39CA85CA5F6FCEA58 /* Pods-ScreenRecoderForGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRecoderForGame-frameworks.sh"; sourceTree = "<group>"; };
+		5DDE5A2F5FEF0C06EF2AC8151472490F /* JSPatch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSPatch.xcconfig; sourceTree = "<group>"; };
+		7BCA8D1AB7C36BC2BA27574126A0B1C1 /* JPEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPEngine.m; path = JSPatch/JPEngine.m; sourceTree = "<group>"; };
+		9102475FCD6EA8C6AF5F9AB0BCAF155C /* Pods-ScreenRecoderForGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRecoderForGame-resources.sh"; sourceTree = "<group>"; };
+		9F6DDFDDAB8EB8406FEA618B614FE274 /* libJSPatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSPatch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A586D1929F1BC22B3A54870EE2C94471 /* Pods-ScreenRecoderForGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenRecoderForGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C44F738DF2E0C195E73393800710490F /* JSPatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSPatch-dummy.m"; sourceTree = "<group>"; };
+		C93A2C60F9576FF6FFB43028673ED931 /* JSPatch.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = JSPatch.js; path = JSPatch/JSPatch.js; sourceTree = "<group>"; };
+		D29F07BE24574472BFA6D7856CFB694B /* Pods-ScreenRecoderForGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenRecoderForGame-dummy.m"; sourceTree = "<group>"; };
+		D32B0A49EE6067C11281269426C73F13 /* Pods-ScreenRecoderForGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecoderForGame.release.xcconfig"; sourceTree = "<group>"; };
+		F1EDA88783649AD8FF7C2D4EBF520AB9 /* JPEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPEngine.h; path = JSPatch/JPEngine.h; sourceTree = "<group>"; };
+		FE96BB0834EAFFBF6458F60F372966A5 /* Pods-ScreenRecoderForGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRecoderForGame-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00CD0B0096519208337740D5BC28FE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6371AF01D6F66B6A45C901711DB2419F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C59F081ABC207547FC2084D7FEC1F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04E758C13909C88410FA82419696F6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F600937FD28AD7E2D1DE4A14CBDFC8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F1EDA88783649AD8FF7C2D4EBF520AB9 /* JPEngine.h */,
+				7BCA8D1AB7C36BC2BA27574126A0B1C1 /* JPEngine.m */,
+				8607D1593C34FC5744A76E796B1B8748 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3C8578D693A3AEA8175F28C8A14349A3 /* Pods-ScreenRecoderForGame */ = {
+			isa = PBXGroup;
+			children = (
+				A586D1929F1BC22B3A54870EE2C94471 /* Pods-ScreenRecoderForGame-acknowledgements.markdown */,
+				FE96BB0834EAFFBF6458F60F372966A5 /* Pods-ScreenRecoderForGame-acknowledgements.plist */,
+				D29F07BE24574472BFA6D7856CFB694B /* Pods-ScreenRecoderForGame-dummy.m */,
+				591E7937CE0B1BA39CA85CA5F6FCEA58 /* Pods-ScreenRecoderForGame-frameworks.sh */,
+				9102475FCD6EA8C6AF5F9AB0BCAF155C /* Pods-ScreenRecoderForGame-resources.sh */,
+				490E4836CB83394A7899C98DCC56C1D0 /* Pods-ScreenRecoderForGame.debug.xcconfig */,
+				D32B0A49EE6067C11281269426C73F13 /* Pods-ScreenRecoderForGame.release.xcconfig */,
+			);
+			name = "Pods-ScreenRecoderForGame";
+			path = "Target Support Files/Pods-ScreenRecoderForGame";
+			sourceTree = "<group>";
+		};
+		6625EA184C420D28881C9EF98A6E3122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F6DDFDDAB8EB8406FEA618B614FE274 /* libJSPatch.a */,
+				300878CB3EA3C495E607D4CE0DC85CDB /* libPods-ScreenRecoderForGame.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FD71C87333830EEE381B5639A0CADE7B /* Pods */,
+				6625EA184C420D28881C9EF98A6E3122 /* Products */,
+				D738051DAA46DE18212F6636BC8D42B5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8607D1593C34FC5744A76E796B1B8748 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C93A2C60F9576FF6FFB43028673ED931 /* JSPatch.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5EE343E5EDEE603734BB277436D2AC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DDE5A2F5FEF0C06EF2AC8151472490F /* JSPatch.xcconfig */,
+				C44F738DF2E0C195E73393800710490F /* JSPatch-dummy.m */,
+				15E3F44D6C7E78CCCDB3C1E292A0701E /* JSPatch-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSPatch";
+			sourceTree = "<group>";
+		};
+		D738051DAA46DE18212F6636BC8D42B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C8578D693A3AEA8175F28C8A14349A3 /* Pods-ScreenRecoderForGame */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EBAFF95D47A3AEBE347C34AA377CBC5D /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				12F600937FD28AD7E2D1DE4A14CBDFC8 /* Core */,
+				C5EE343E5EDEE603734BB277436D2AC0 /* Support Files */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		FD71C87333830EEE381B5639A0CADE7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFF95D47A3AEBE347C34AA377CBC5D /* JSPatch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC0D5F87286AE5412CAC701D6ACAB402 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B78BFC3D921957F8DD6A2CE3E0B499 /* JPEngine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D0BC7E6EFC582F02D2B5AD0B867A7FC9 /* Pods-ScreenRecoderForGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71EACE05097B11A52339AF8C49F7A1E /* Build configuration list for PBXNativeTarget "Pods-ScreenRecoderForGame" */;
+			buildPhases = (
+				B3FA8B92DC0EE45964E0B9CC4F4C2CEC /* Sources */,
+				1C59F081ABC207547FC2084D7FEC1F6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6EF983ECDDDBCA289D45B87452C22BD /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenRecoderForGame";
+			productName = "Pods-ScreenRecoderForGame";
+			productReference = 300878CB3EA3C495E607D4CE0DC85CDB /* libPods-ScreenRecoderForGame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD1D53461DE538B7C8DFE0B76D857587 /* JSPatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6237EEAE81FAC77DC4CDAA075B264E9 /* Build configuration list for PBXNativeTarget "JSPatch" */;
+			buildPhases = (
+				7F85DFA0BA8E5DF5155BF3912A24B2A0 /* Sources */,
+				00CD0B0096519208337740D5BC28FE6D /* Frameworks */,
+				EC0D5F87286AE5412CAC701D6ACAB402 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPatch;
+			productName = JSPatch;
+			productReference = 9F6DDFDDAB8EB8406FEA618B614FE274 /* libJSPatch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6625EA184C420D28881C9EF98A6E3122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD1D53461DE538B7C8DFE0B76D857587 /* JSPatch */,
+				D0BC7E6EFC582F02D2B5AD0B867A7FC9 /* Pods-ScreenRecoderForGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F85DFA0BA8E5DF5155BF3912A24B2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90FE89EDA2F001944637A7C456AF004 /* JPEngine.m in Sources */,
+				A7B8ECCAD3285C571FFAE1F87156FBF2 /* JSPatch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FA8B92DC0EE45964E0B9CC4F4C2CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B81F2320589DB68CFB98E3E13EB72FF /* Pods-ScreenRecoderForGame-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6EF983ECDDDBCA289D45B87452C22BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSPatch;
+			target = FD1D53461DE538B7C8DFE0B76D857587 /* JSPatch */;
+			targetProxy = CE3EA6740786F9ECB104FD2E855FD075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14268068F2ECF0BFF372C12220DAA59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490E4836CB83394A7899C98DCC56C1D0 /* Pods-ScreenRecoderForGame.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2F6972ADBC5C10F0DB7BFADA1BCBBE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DDE5A2F5FEF0C06EF2AC8151472490F /* JSPatch.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSPatch/JSPatch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6C351FDDC3B2149FCE3D633F2D21579A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32B0A49EE6067C11281269426C73F13 /* Pods-ScreenRecoderForGame.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AECE5ABDFC9F363CB6B0A03A8DBEBB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DDE5A2F5FEF0C06EF2AC8151472490F /* JSPatch.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSPatch/JSPatch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71EACE05097B11A52339AF8C49F7A1E /* Build configuration list for PBXNativeTarget "Pods-ScreenRecoderForGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14268068F2ECF0BFF372C12220DAA59F /* Debug */,
+				6C351FDDC3B2149FCE3D633F2D21579A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6237EEAE81FAC77DC4CDAA075B264E9 /* Build configuration list for PBXNativeTarget "JSPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6972ADBC5C10F0DB7BFADA1BCBBE6A /* Debug */,
+				AECE5ABDFC9F363CB6B0A03A8DBEBB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

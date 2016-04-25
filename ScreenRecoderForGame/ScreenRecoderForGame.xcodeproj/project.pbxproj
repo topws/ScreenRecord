@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4765DC75644BDE0E2BCF5599 /* libPods-ScreenRecoderForGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 168EC6C7E2FF8B11A1CB8E30 /* libPods-ScreenRecoderForGame.a */; };
 		FCFA52E71CC8CB0400EB6FC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA52E61CC8CB0400EB6FC2 /* main.m */; };
 		FCFA52EA1CC8CB0400EB6FC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA52E91CC8CB0400EB6FC2 /* AppDelegate.m */; };
 		FCFA52ED1CC8CB0400EB6FC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA52EC1CC8CB0400EB6FC2 /* ViewController.m */; };
@@ -39,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		168EC6C7E2FF8B11A1CB8E30 /* libPods-ScreenRecoderForGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScreenRecoderForGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E00202D3F9EE37184F377D /* Pods-ScreenRecoderForGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenRecoderForGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenRecoderForGame/Pods-ScreenRecoderForGame.debug.xcconfig"; sourceTree = "<group>"; };
+		AE86827476DDF9FAE91B1F7C /* Pods-ScreenRecoderForGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenRecoderForGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenRecoderForGame/Pods-ScreenRecoderForGame.release.xcconfig"; sourceTree = "<group>"; };
 		FCFA52E21CC8CB0400EB6FC2 /* ScreenRecoderForGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRecoderForGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFA52E61CC8CB0400EB6FC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCFA52E81CC8CB0400EB6FC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4765DC75644BDE0E2BCF5599 /* libPods-ScreenRecoderForGame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C19641688CBEEB92981F6F64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				168EC6C7E2FF8B11A1CB8E30 /* libPods-ScreenRecoderForGame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA274E95A2A86AF65ED94911 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72E00202D3F9EE37184F377D /* Pods-ScreenRecoderForGame.debug.xcconfig */,
+				AE86827476DDF9FAE91B1F7C /* Pods-ScreenRecoderForGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FCFA52D91CC8CB0400EB6FC2 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +117,8 @@
 				FCFA52FE1CC8CB0400EB6FC2 /* ScreenRecoderForGameTests */,
 				FCFA53091CC8CB0400EB6FC2 /* ScreenRecoderForGameUITests */,
 				FCFA52E31CC8CB0400EB6FC2 /* Products */,
+				DA274E95A2A86AF65ED94911 /* Pods */,
+				C19641688CBEEB92981F6F64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCFA530F1CC8CB0400EB6FC2 /* Build configuration list for PBXNativeTarget "ScreenRecoderForGame" */;
 			buildPhases = (
+				773F149D54CB0FA79A09E75A /* Check Pods Manifest.lock */,
 				FCFA52DE1CC8CB0400EB6FC2 /* Sources */,
 				FCFA52DF1CC8CB0400EB6FC2 /* Frameworks */,
 				FCFA52E01CC8CB0400EB6FC2 /* Resources */,
+				5AAD30359772AB3A51690EC6 /* Embed Pods Frameworks */,
+				38FA2308FE7328452FC7F00A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,6 +319,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38FA2308FE7328452FC7F00A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenRecoderForGame/Pods-ScreenRecoderForGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AAD30359772AB3A51690EC6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenRecoderForGame/Pods-ScreenRecoderForGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773F149D54CB0FA79A09E75A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FCFA52DE1CC8CB0400EB6FC2 /* Sources */ = {
@@ -442,6 +517,7 @@
 		};
 		FCFA53101CC8CB0400EB6FC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E00202D3F9EE37184F377D /* Pods-ScreenRecoderForGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScreenRecoderForGame/Info.plist;
@@ -454,6 +530,7 @@
 		};
 		FCFA53111CC8CB0400EB6FC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE86827476DDF9FAE91B1F7C /* Pods-ScreenRecoderForGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScreenRecoderForGame/Info.plist;
@@ -529,6 +606,7 @@
 				FCFA53111CC8CB0400EB6FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCFA53121CC8CB0400EB6FC2 /* Build configuration list for PBXNativeTarget "ScreenRecoderForGameTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +615,7 @@
 				FCFA53141CC8CB0400EB6FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCFA53151CC8CB0400EB6FC2 /* Build configuration list for PBXNativeTarget "ScreenRecoderForGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +624,7 @@
 				FCFA53171CC8CB0400EB6FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
