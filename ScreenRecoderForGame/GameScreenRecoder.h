@@ -17,7 +17,8 @@
 - (void)previewControllerDidFinish:(RPPreviewViewController *)previewController;
 //根据需要进行用户提示
 - (void)previewController:(RPPreviewViewController *)previewController didFinishWithActivityTypes:(NSSet <NSString *> *)activityTypes;
-
+//因录屏功能改变的代理
+-(void)changedIsAvaliable;
 @optional
 //正在录屏
 -(void)loading;

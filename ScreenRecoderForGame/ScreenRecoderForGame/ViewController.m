@@ -69,6 +69,10 @@
      NSLog(@"结束");
 }
 #pragma mark -Delegate
+-(void)changedIsAvaliable{
+    //掉一次结束按钮
+    [self endRecord:nil];
+}
 -(void)loading{
     self.flagLabel.text = @"准备中";
 }

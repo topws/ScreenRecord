@@ -69,7 +69,7 @@
         return NO;
     }
     //系统自带的接口，判断是否在录制，比我的好用多了
-    NSLog(@"%d",[[RPScreenRecorder sharedRecorder]isRecording]);
+    NSLog(@"是否在录屏%d",[[RPScreenRecorder sharedRecorder]isRecording]);
     if ([[RPScreenRecorder sharedRecorder]isRecording]) {
         return NO;
     }
@@ -130,13 +130,21 @@
 #pragma mark RPScreenRecordDelegate
 - (void)screenRecorder:(RPScreenRecorder *)screenRecorder didStopRecordingWithError:(NSError *)error previewViewController:(nullable RPPreviewViewController *)previewViewController
 {
+    //因为错误停止了录屏
+    
     NSLog(@"%s  error = %@",__FUNCTION__,error);
 }
 
 - (void)screenRecorderDidChangeAvailability:(RPScreenRecorder *)screenRecorder
 {
     //如果变成了无法录屏，应该发送通知去停止录屏
-    NSLog(@"屏幕录制的能力改变了 %d %d",screenRecorder.isRecording,screenRecorder.isAvailable);
+    NSLog(@"屏幕录制的能力改变了 是否在录制:%d  能否录制：%d",screenRecorder.isRecording,screenRecorder.isAvailable);
+    if (!screenRecorder.isAvailable) {
+        if (screenRecorder.isRecording) {
+            //结束录屏
+            [self.delegate changedIsAvaliable];
+        }
+    }
 }
 
 
